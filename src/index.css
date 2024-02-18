@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.submit {
+    @apply py-3 px-12 rounded-md border border-neutral-900 text-neutral-50 w-full bg-neutral-900 antialiased font-semibold tracking-wide
+}
+
+.gray {
+    @apply py-3 px-12 rounded-md border border-neutral-300 text-neutral-900 w-full bg-neutral-300 antialiased font-semibold tracking-wide
+}
